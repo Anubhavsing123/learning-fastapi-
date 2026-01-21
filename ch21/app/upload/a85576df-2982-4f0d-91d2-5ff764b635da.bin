@@ -1,0 +1,23 @@
+Fastapi
+ch1-> #endpoint making
+ch2-># use of Enum for predefined value
+ch3-> #curd operations
+ch4-># query parameter
+ch5-># query parameter with validation and other
+ch6->#query and path parameter
+ch7->#paydantic model
+ch9-> #multiple parameter
+ch9->#pydantic field
+ch10->#nested model
+ch11-># add example in the FastAPI by default
+ch12->#cookie parameter
+ch13->#cookie with pydantic model
+ch14-># header parameter
+ch15-># header parameter with model
+ch16-># return type
+ch17->#response model
+ch18-># include and exclude the field
+ch19-># form handle
+ch20-> # form with pydantic and validation
+ch21-> #single file upload
+
