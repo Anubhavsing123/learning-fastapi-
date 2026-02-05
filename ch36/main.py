@@ -1,0 +1,18 @@
+from model import create_table
+from service import *
+# create_table()
+# create_post(1,"Hello ji ","mytask")
+# create_user("sonam","anub7678800757@gmail.com")
+# create_user("aman","anub7678800758@gmail.com")
+# create_user("anub","anub@gmail.com")
+# create_post(1,"helo ji","how are you")
+# create_post(1,"namaste ji","jiji")
+# create_post(2,"namaste ji lo","july")
+# create_post(2,"namaste ji hello","jagur")
+# # print(get_user_id(2))
+# print(get_post_id(1))
+# print(read_user())
+# print(read_post(1))
+# print(updated_email(1,"anj@gmail.com"))
+# print(delete_post(1))
+print(order_by())
