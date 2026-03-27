@@ -1,0 +1,28 @@
+<!DOCTYPE Html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <title> Jinja2</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+    </head>
+    <body>
+        <h1>Product List</h1>
+        <form action="/create" method="post">
+            <input type="text" name="title" placeholder="Title" required/>
+            <br>
+            <br>
+            <textarea name="description" placeholder="Description" requried></textarea>
+            <br>
+            <button type="Submit">Send</button>
+        </form>
+        <hr>
+        <ul>
+            {%for product in products%}
+            <li>{{product.title}}-{{product.description}}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
+
+</DOCTYPE>
