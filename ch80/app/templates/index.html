@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Product_List</h1>
+<div id="product-form" hx-get="/form" hx-trigger="load"></div>
+<hr>
+<div id="product" hx-get="/product" hx-trigger="load"></div>
+{% endblock content %}
