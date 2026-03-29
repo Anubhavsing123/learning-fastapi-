@@ -1,0 +1,98 @@
+/* General Page Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5; /* Slightly softer blue-gray */
+    margin: 0;
+    padding: 40px 20px;
+    color: #333;
+}
+
+/* Main Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #2e7d32;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Form Card */
+.form-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); /* Softer, deeper shadow */
+    margin-bottom: 40px;
+}
+
+/* Inputs */
+input, textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #4caf50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2);
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #4caf50, #388e3c); /* Gradient for depth */
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(76, 175, 80, 0.3);
+}
+
+/* Product List */
+.product-list {
+    margin-top: 20px;
+}
+
+/* Product Card - The "Attractive" part */
+.product-item {
+    background: white;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+    border-radius: 10px;
+    border-left: 5px solid #4caf50; /* Side accent */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.product-item:hover {
+    background: #fafafa;
+    transform: translateX(5px); /* Gentle slide-in effect */
+}
+
+/* Typography in Items */
+.product-item strong {
+    color: #1b5e20;
+    font-weight: 700;
+}

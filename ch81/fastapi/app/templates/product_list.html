@@ -1,0 +1,10 @@
+<div class="product-list">
+    {% for product in products %}
+    <div class="product-item">
+        <span class="icon">🛒</span>
+        <div class="text">
+            <strong>{{ product.title }}</strong>: {{ product.description }}
+        </div>
+    </div>
+    {% endfor %}
+</div>
