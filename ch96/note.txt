@@ -1,0 +1,4 @@
+to install sync:
+pip install "fastapi[standarad]" sqlalchemy pymysql
+to install async :
+pip install "fastapi[standarad]" sqlalchemy[asyncio] aiomysql
