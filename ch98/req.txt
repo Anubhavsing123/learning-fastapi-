@@ -1,0 +1,1 @@
+pip install "fastapi[standarad]" beanie python-decouple
